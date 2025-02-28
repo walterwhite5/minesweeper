@@ -1,3 +1,5 @@
+#DET HÄR ÄR EN GAMMAL FIL. "new.pyt" INNEHÅLLER DEN AKTIVA KODEN.
+
 import random
 import time
 
