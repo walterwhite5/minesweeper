@@ -57,7 +57,17 @@ def main():
             print_map(game_map)
             minesDug += 1
             print(str(minesDug) + " / 90 cells left")
+            #if minesDug == 2:
             if minesDug == rows * cols - mines:
+                print('       _        ')
+                print('     /(|        ')
+                print('    (  :        ')
+                print('   __\  \  _____')
+                print(' (____) \\      ')
+                print('(____|)  )      ')
+                print('(____).__|      ')
+                print(' (___)__.|_____ ')
+                print(' ')
                 print('Congratulations! You Win!')
                 while True:
                     time.sleep(4)
